@@ -58,7 +58,11 @@ References : Wan Ahmad, W. N. K., Shamsuddin, A., & Tham, J. H. (2021). Customer
 5. Accuracy check.
 ### Deployment
 
-
+======================================================================================
+### Repo Contents
+1. Notebook = Shipping_Logistic_Analysis.ipynb
+2. Assets = Formal Report and Slides
+3. Dataset = Shipping.csv
 
 
 
