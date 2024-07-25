@@ -25,8 +25,8 @@ if st.button('Delivery Prediction'):
     preds = grid_search_dt.predict([[Warehouse_block, Mode_of_Shipment, Customer_care_calls, Customer_rating, Cost_of_the_Product, Prior_purchases, Product_importance, Gender, Discount_offered, Weight_in_gms]])
     
     if(preds[0] == 1):
-        preds = 'Not reach on time'
+        delivery = 'Not reach on time'
     else : 
-        preds = 'Reach on time'
+        delivery = 'Reach on time'
     st.success(delivery)
 
